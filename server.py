@@ -13,9 +13,7 @@ from datetime import datetime, timezone, timedelta
 import bcrypt
 import jwt
 import httpx
-"from emergentintegrations.payments.stripe.checkout import (
-    StripeCheckout, CheckoutSessionResponse, CheckoutStatusResponse, CheckoutSessionRequest
-)
+
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / 'backend.env')
