@@ -8,4 +8,3 @@ pyjwt
 httpx
 email-validator
 stripe
-emergentintegrations
