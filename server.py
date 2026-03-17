@@ -19,7 +19,7 @@ ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / 'backend.env')
 
 # MongoDB connection
-mongo_url = os.environ["mongodb://localhost:27017]
+mongo_url = os.environ["mongodb://localhost:27017"]
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ["test_database"]]
 
