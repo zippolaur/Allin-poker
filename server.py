@@ -25,7 +25,7 @@ db = client[os.environ["test_database"]]
 
 # JWT Config
 JWT_SECRET = os.environ.get('JWT_SECRET', "allin_poker_super_secret_key_2024")
-JWT_ALGORITHM = \"HS256\"
+JWT_ALGORITHM = "HS256"
 JWT_EXPIRATION_HOURS = 168  # 7 days
 
 # Stripe Config
